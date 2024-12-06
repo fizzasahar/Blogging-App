@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-section">
+        <div class="login-content">
+            <h4>Welcome </h4>
+            <h2>Register Your Account</h2><br>
+            <form class="login-form" id="register-Form">
+                <input type="email" id="Register-email" placeholder="Enter your email..." required />
+                <input type="password" id="Register-password" placeholder="Create password..." required />
+                <input type="password" id="Register-cpassword" placeholder="Confirm password..." required />
+                <button type="submit" id="Register-btn">Register</button>
+            </form><br>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+        <img src="img/Ellipse 4.png" alt="">
+        <div class="login-decor"></div>
+    </div>
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="register.js"></script>
+</body>
+
+</html>

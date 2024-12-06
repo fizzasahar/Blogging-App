@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-section">
+        <div class="login-content">
+            <h4>Welcome Back</h4>
+            <h2>Log In to Your Account</h2>
+            <form id="login-form" class="login-form">
+                <input type="email" id="email" placeholder="Enter your email..." required>
+                <input type="password" id="password" placeholder="Enter your password..." required>
+                <button type="submit" id="login">Log In</button>
+            </form>
+            <p>Don't have an account? <a href="register.html">Sign Up</a></p>
+            <p id="error-message" style="color: red; margin-top: 10px;"></p>
+        </div>
+        <img src="img/Ellipse 4.png" alt="">
+        <div class="login-decor"></div>
+    </div>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
